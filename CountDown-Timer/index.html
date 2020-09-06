@@ -8,7 +8,13 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>New Years Eve</h1>
+    <div id="calculatediv">
+        <h1>Calculate Date</h1>
+        <input  required id="date-picker" type="date">
+        <button onclick="selectedDate()" id="Calculate">Calculate</button>
+    </div>
+    <div style="display: none;" id="countdown">
+        <h1>You will Die in</h1>
     <div class="countdown-container">
         <div class="countdown-el days-container">
             <p class="big-text" id="days">0</p>
@@ -26,6 +32,7 @@
             <p class="big-text" id="seconds">0</p>
             <span>seconds</span>
         </div>
+    </div>
     </div>
 </body>
 </html>

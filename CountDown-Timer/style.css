@@ -43,3 +43,7 @@ h1 {
     font-size: 1.5rem;
 }
 
+.calculate input {
+    margin: 0 10px;
+}
+
