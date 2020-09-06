@@ -45,7 +45,7 @@ calculateBtn.addEventListener('click', () => {
     let selectedDates = selectedDate();
     if(!selectedDates)
     {
-        alert('Selected date');
+        alert('Please select one date');
     }
     else {
         calculateDiv.style.display = "none";
